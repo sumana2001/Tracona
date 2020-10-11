@@ -1,23 +1,7 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "montserrat";
-    /*background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);*/
-    background-image: linear-gradient(90deg,#142536,#063118,#06263b,#4d100a,#300a41);
-    background-size: 400% 400%;
-    animation: bganimation 120s infinite;
-  }
-  
-  @keyframes bganimation {
-    0%{
-      background-position: 0% 50%;
-    }
-    50%{
-      background-position: 100% 50%;
-    }
-    100%{
-      background-position: 0% 50%;
-    }
+  body{
+    background-image: url("bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   h2{
     color: white;
@@ -26,6 +10,7 @@ body{
   }
 
   .slogan{
+    margin-top: 5%;
     text-align: center;
     text-transform: none;
   }
@@ -39,13 +24,13 @@ body{
   .cursor {
     width: 5px;
     height: 5px;
-    background-color: #000;
+    background-color: white;
   }
   
   .cursor-follower {
     width: 30px;
     height: 30px;
-    border: 2px solid #000;
+    border: 2px solid white;
   }
   
   .cursor-white {
@@ -65,3 +50,8 @@ body{
     background-color: rgba(153, 153, 153, 0.4);
   }
   
+  .foot{
+    text-align: center;
+    margin-top: 3%;
+    color: white;
+  }
