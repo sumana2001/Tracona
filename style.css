@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+    /*background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);*/
+    background-image: linear-gradient(90deg,#142536,#063118,#06263b,#4d100a,#300a41);
+    background-size: 400% 400%;
+    animation: bganimation 120s infinite;
+  }
+  
+  @keyframes bganimation {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+  h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+
+  .slogan{
+    text-align: center;
+    text-transform: none;
+  }
+  .custom-cursor {
+    pointer-events: none;
+    position: fixed;
+    border-radius: 50%;
+    z-index: 999;
+  }
+  
+  .cursor {
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+  }
+  
+  .cursor-follower {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+  }
+  
+  .cursor-white {
+    background-color: #fff;
+  }
+  
+  .cursor-follow-white {
+    border: 2px solid #fff;
+  }
+  
+  .cursor-transform {
+    background-color: transparent;
+  }
+  
+  .cursor-follow-transform {
+    border: unset;
+    background-color: rgba(153, 153, 153, 0.4);
+  }
+  

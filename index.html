@@ -4,11 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Tracona</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <!--    Favicon-->
+    <link rel="icon" href="logo.jpeg" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
+      <h2 class="slogan">Stay Safe, Stay Home</h2>
       <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
@@ -20,8 +23,15 @@
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Tracona</div>
+        <h2>Move right and left to dodge the coronavirus!</h2>
       </div>
     </div>
+    
+  <div class="custom-cursor cursor"></div>
+  <div class="custom-cursor cursor-follower"></div>
+
+  <script src="TweenMax.min.js" ></script>
+  <script src="app.js"></script>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/web2.loader.js";
